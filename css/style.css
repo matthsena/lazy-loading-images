@@ -1,0 +1,26 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+}
+
+.content 
+{
+	margin: 0;
+	padding 15px;
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
+.content img 
+{
+	margin: 15px;
+	width: calc(100% - 30px);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.8);
+}
+
+.content img [data-status="placeholder"]
+{
+	width: calc(1000% - 30px)
+}
+
